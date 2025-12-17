@@ -319,7 +319,7 @@ end)
 do
     local Window = Fluent:CreateWindow({
         Title = string.format("%s <b><i>%s</i></b>", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot"), #Status > 0 and Status or "🔥FREE🔥"),
-        SubTitle = "By @ttwiz_z",
+        SubTitle = "By ETXDEV but i lwk skidded it",
         TabWidth = UISettings.TabWidth,
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
         Theme = UISettings.Theme,
@@ -580,7 +580,7 @@ do
 
     Tabs.Bots:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/stack-crash999/Open-Aimbot"
     })
 
     local SpinBotSection = Tabs.Bots:AddSection("SpinBot")
@@ -738,7 +738,7 @@ do
 
     Tabs.Checks:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/stack-crash999/Open-Aimbot"
     })
 
     local SimpleChecksSection = Tabs.Checks:AddSection("Simple Checks")
@@ -1095,7 +1095,7 @@ do
 
         Tabs.Visuals:AddParagraph({
             Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-            Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+            Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/stack-crash999/Open-Aimbot"
         })
 
         local FoVSection = Tabs.Visuals:AddSection("FoV")
@@ -1337,7 +1337,7 @@ do
 
     Tabs.Settings:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/stack-crash999/Open-Aimbot"
     })
 
     local UISection = Tabs.Settings:AddSection("UI")
@@ -2396,7 +2396,7 @@ local OnTeleport; OnTeleport = Player.OnTeleport:Connect(function()
     if DEBUG or not Fluent or not getfenv().queue_on_teleport then
         OnTeleport:Disconnect()
     else
-        getfenv().queue_on_teleport("getfenv().loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ttwizz/Open-Aimbot/master/source.lua\", true))()")
+        getfenv().queue_on_teleport("getfenv().loadstring(game:HttpGet(\"https://raw.githubusercontent.com/stack-crash999/Open-Aimbot/master/source.lua\", true))()")
         OnTeleport:Disconnect()
     end
 end)
@@ -2497,4 +2497,5 @@ local AimbotLoop; AimbotLoop = RunService[UISettings.RenderingMode]:Connect(func
             end
         end
     end
+
 end)
