@@ -319,7 +319,7 @@ end)
 do
     local Window = Fluent:CreateWindow({
         Title = string.format("%s <b><i>%s</i></b>", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot"), #Status > 0 and Status or "🔥FREE🔥"),
-        SubTitle = "By ETXDEV but i lwk skidded it",
+        SubTitle = "ETX Open Aim Improvement",
         TabWidth = UISettings.TabWidth,
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
         Theme = UISettings.Theme,
@@ -333,7 +333,7 @@ do
 
     Tabs.Aimbot:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/stack-crash999/Open-Aimbot"
     })
 
     local AimbotSection = Tabs.Aimbot:AddSection("Aimbot")
@@ -2499,3 +2499,4 @@ local AimbotLoop; AimbotLoop = RunService[UISettings.RenderingMode]:Connect(func
     end
 
 end)
+
